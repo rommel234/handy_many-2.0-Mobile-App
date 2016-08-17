@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:weightSum="100"
+    android:minHeight="25px"
+    android:minWidth="25px"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="HandyMan 2.0"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/tvHeader"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_weight="20" />
+    <Button
+        android:text="LOGIN"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/buttonStyle"
+        android:layout_weight="15"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:id="@+id/btlogin" />
+    <TextView
+        android:text="or"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/tvOr" />
+    <Button
+        android:text="REGISTER"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="@drawable/buttonStyle"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:id="@+id/btregister" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:id="@+id/rtLayout">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar1"
+            android:background="@drawable/barStyle"
+            android:indeterminate="true"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

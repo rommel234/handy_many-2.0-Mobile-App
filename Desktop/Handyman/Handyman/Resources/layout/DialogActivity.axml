@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="450px"
+    android:minWidth="350px">
+    <EditText
+        android:hint="name"
+        android:id="@+id/etRegName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:textColor="#f3c500" />
+    <EditText
+        android:hint="surname"
+        android:id="@+id/etRegSurname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:textColor="#f3c500" />
+    <EditText
+        android:hint="username"
+        android:id="@+id/etRegUsername"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:textColor="#f3c500" />
+    <EditText
+        android:hint="password"
+        android:inputType="textPassword"
+        android:id="@+id/etRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:textColor="#f3c500" />
+    <EditText
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etRegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:textColor="#f3c500" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRegPassword"
+        
+        android:layout_marginTop="40dp">
+        <Button
+            android:text="REGISTER"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonStyle"
+            android:id="@+id/btSignUp" />
+    </RelativeLayout>
+</LinearLayout>

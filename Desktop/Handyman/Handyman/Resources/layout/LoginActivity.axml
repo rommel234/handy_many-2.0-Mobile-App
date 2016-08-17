@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:minHeight="25px"
+    android:minWidth="25px"
+    android:weightSum="100"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="LOGIN"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="20" />
+    <EditText
+        android:hint="username"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/etusername"
+        android:layout_weight="15"
+        android:layout_marginBottom="10dp" />
+    <EditText
+        android:hint="password"
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="15" />
+    <TextView
+        android:id="@+id/tvforgotpassword"
+        android:text="Forgot password?"
+        android:textSize="20sp"
+        android:textColor="#019185"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_width="match_parent" />
+    <Button
+        android:id="@+id/btSign"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="@drawable/buttonStyle"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="sign in" />
+</LinearLayout>
